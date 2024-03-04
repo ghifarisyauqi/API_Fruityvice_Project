@@ -24,7 +24,7 @@ data_to_insert = [tuple(row) for row in df.values] # Change format to be able fo
 mydb = mysql.connector.connect(
     host = 'mysql-1a320b02-marsasyauqi1-c710.a.aivencloud.com',
     user = 'avnadmin',
-    password = 'AVNS_nPY2wbJt1qJj6nbAY-K',
+    password = '***********',
     database = 'defaultdb',
     port = '11593'
 )
